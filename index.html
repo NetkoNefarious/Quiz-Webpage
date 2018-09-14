@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Quiz Webpage</title>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/script.js" async></script>
 </head>
 <body>
@@ -16,13 +17,13 @@
     <main>
         <p>Pick a category: </p>
         <section>
-            <a href="javascript:LoadGeography()">Geografija</a> <!-- Bit će stilski kao botuni -->
+            <a href="javascript:LoadForm('geo')">Geografija</a> <!-- Bit će stilski kao botuni -->
         </section>
         <section>
-            <a href="javascript:void(0)">Psihoakustika</a>
+            <a href="javascript:LoadForm('psy')">Psihoakustika</a>
         </section>
         <section>
-            <a href="javascript:void(0)">Videoigre</a>
+            <a href="javascript:LoadForm('game')">Videoigre</a>
         </section>
     </main>
 </body>
