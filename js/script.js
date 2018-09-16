@@ -10,7 +10,7 @@ function LoadForm (str) {
     xhr.send();
 
     // Here's an example of using SessionStorage
-    $(document).on('click', 'button', function(event) {
+    $(document).on('submit', 'form', function(event) {
         sessionStorage.setItem('name', document.getElementById('fName').value);
         sessionStorage.setItem('surname', document.getElementById('lName').value);
         LoadQuiz(str);

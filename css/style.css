@@ -17,6 +17,8 @@ header {
 header h1 {
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
 }
 
 main {
@@ -46,12 +48,26 @@ section a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.forminput {
+    margin: 0.5rem;
+}
+
 @media (min-width: 800px) {
     main {
         max-width: 90%;
     }
+
+    main p {
+        max-width: 70%;
+        margin: 1rem auto;
+    }
+
     main section {
         display: inline-block;
         width: 30%;
+    }
+
+    .forminput {
+        display: inline;
     }
 }

@@ -1,8 +1,15 @@
 <p>First, fill out this form.</p>
-<form>
-    <label for="fName">First name:</label>
-    <input type="text" name="firstNameInput" id="fName">
-    <label for="lName">Last name:</label>
-    <input type="text" name="lastNameInput" id="lName">
-    <button type="button" id="sub">Submit</button>
+<form action="javascript:void(0)">
+    <div class="forminput">
+        <label for="fName">First name:</label>
+        <input type="text" name="firstNameInput" id="fName" required>
+    </div>
+
+    <div class="forminput">
+        <label for="lName">Last name:</label>
+        <input type="text" name="lastNameInput" id="lName" required>
+    </div>
+
+    <button type="submit" id="sub">Submit</button>
 </form>
+<p>These data will be used to demonstrate SessionStorage later on. Once you're done, click Submit.</p>
